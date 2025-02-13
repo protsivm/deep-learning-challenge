@@ -42,7 +42,7 @@ Initial model accuracy: ~72%
 
           Attempts to Improve Model Performance:
 
-Increased the number of neurons and layers
+Increased the number of neurons and layers:
           First hidden layer: 128neurons, relu activation function
           Second hidden layer: 64 neurons, relu activation function
           Third hidden layer: 32 neurons, relu activation function
