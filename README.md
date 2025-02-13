@@ -17,20 +17,20 @@ The purpose of this analysis is to develop a deep learning model using a neural 
 
           Model Architecture:
 
-=======   Input Layer: 
+=======   Input Layer:           
           Number of neurons equal to the number of features.
 
-=======   Hidden Layers:
-          First hidden layer: 80 neurons, relu activation function
-          Second hidden layer: 30 neurons, relu activation function
+=======   Hidden Layers:                    
+          First hidden layer: 80 neurons, relu activation function                    
+          Second hidden layer: 30 neurons, relu activation function                    
 
 ========  Output Layer:
           1 neuron with sigmoid activation function
 
-========  Optimizer: 
+========  Optimizer:           
           Adam
 
-========  Loss function: 
+========  Loss function:           
           Binary Crossentropy
 
          
@@ -42,14 +42,17 @@ Initial model accuracy: ~72%
 
           Attempts to Improve Model Performance:
 
-Increased the number of neurons and layers:
-          First hidden layer: 128neurons, relu activation function
-          Second hidden layer: 64 neurons, relu activation function
-          Third hidden layer: 32 neurons, relu activation function
+Increased the number of neurons and layers:          
+          First hidden layer: 128neurons, relu activation function          
+          Second hidden layer: 64 neurons, relu activation function          
+          Third hidden layer: 32 neurons, relu activation function          
 
-Experimented with different activation functions (ReLU performed best)
+Experimented with different activation functions (ReLU, sigmoid, softmax)
 
-Summary
+Use Dropout function to to reduce overfitting
+Use different optimisers: "rmsprop", "SGD" 
+
+          Summary
 
 The deep learning model achieved moderate accuracy (~73%), which may not be sufficient for making highly reliable funding decisions.
 
